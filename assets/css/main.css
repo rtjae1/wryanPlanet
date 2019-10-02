@@ -1,0 +1,186 @@
+body {
+  background: #fce2a9;
+}
+.box {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  background: none;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+}
+.planet {
+  position: absolute;
+  border-radius: 50%;
+  background: #dd4837;
+  height: 60%;
+  width: 42%;
+  top: 15%;
+  left: 30%;
+}
+.planet-copy {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #dd4837;
+  border-radius: 50%;
+  z-index: 1;
+}
+.white-circle {
+  position: absolute;
+  background: white;
+  opacity: 0.1;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  right: 0%;
+  top: 0%;
+  z-index: 3;
+}
+.circle-1 {
+  position: absolute;
+  height: 18%;
+  width: 18%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 38%;
+  left: 35%;
+  z-index: 2;
+}
+.circle-2 {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 45%;
+  z-index: 2;
+}
+.circle-3 {
+  position: absolute;
+  height: 13%;
+  width: 13%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 20%;
+  left: 65%;
+  z-index: 2;
+}
+.circle-4 {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 60%;
+  left: 65%;
+  z-index: 2;
+}
+.circle-5 {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 35%;
+  left: 6%;
+  z-index: 2;
+}
+.circle-6 {
+  position: absolute;
+  height: 9%;
+  width: 9%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 75%;
+  left: 15%;
+  z-index: 2;
+}
+.circle-7 {
+  position: absolute;
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+  background: #cb382b;
+  top: 85%;
+  left: 40%;
+  z-index: 2;
+}
+.tube-1 {
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 25%;
+  left: 15%;
+  background: #dd4843;
+  border-radius: 50px;
+  z-index: 1;
+}
+.tube-2 {
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  top: 38%;
+  left: 20%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube-3 {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 50%;
+  left: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube-4 {
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 24%;
+  right: 10%;
+  background: #eebf45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube-5 {
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 40%;
+  right: 20%;
+  background: #e57c39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube-6 {
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  top: 55%;
+  right: 15%;
+  background: #dd4b37;
+  border-radius: 50px;
+  z-index: -1;
+}
+.flag {
+  position: absolute;
+  background: #dd4b37;
+  top: -3%;
+  width: 10%;
+  height: 10%;
+  left: 47%;
+}
+.pole {
+    position: absolute;
+    height: 200%;
+    width: 25%;
+    background: #5C4126;
+    bottom: -200%;
+    left: 0%;
+}
